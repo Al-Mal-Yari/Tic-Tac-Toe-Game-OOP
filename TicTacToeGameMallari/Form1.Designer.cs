@@ -29,13 +29,32 @@ namespace TicTacToeGameMallari
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(70, 44);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(100, 100);
+            this.btn1.TabIndex = 0;
+            this.btn1.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn1;
     }
 }
 
